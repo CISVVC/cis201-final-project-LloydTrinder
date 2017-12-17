@@ -19,7 +19,7 @@ public:
     std::string next_word(std::ifstream &input);
     bool is_whitespace(char c);
     void eat_whitespace(std::ifstream &input);
-	  std::string make_lower(std::string word);
+    std::string make_lower(std::string word);
     int find_word(std::string word);
     void print();
 private:
