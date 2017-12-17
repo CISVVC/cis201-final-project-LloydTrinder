@@ -6,13 +6,12 @@
 #include "word.h"
 
 
-Word::Word(std::string  word)
+Word::Word(std::string word)
 {
    m_word = word;
    m_count = 1;
 }
 
-//
 
 std::string Word::get_word() 
 { 
